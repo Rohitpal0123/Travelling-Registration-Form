@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML form</title>
+    </head>
+    <body>
+        <div class="regform" ><h1> Registration Form</Form></h1></div>
+        <div class="main" ></div>
+        <form>
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input type="text" class="Firstname" name="First_name" placeholder="First name"><br>
+                <label class="firstlabel">Enter your first name</label><br>
+                <input type="text" placeholder="Last name" class="lastname" name="lastname"><br>
+                <label class="lastlabel">Enter your last name</label><br>
+               
+            </div>
+            <h2 class="name">Company</h2>
+            <input type="text" class="company" name ="company" placeholder="Enter company name">
+            
+            <h2 class="name">Email</h2>
+            <input type="text" class="email" name="Email">
+
+            <h2 class="name"> Contact details</h2>
+            <input type="text" class="pincode" name="area_pincode" placeholder="Enter valid pincode"><br>
+            <label class="pincode">Pin Code</label><br>
+            <input type="text" class="number" name="phone nuber"><br>
+            <label class="Phone Number">Phone Number</label><br>
+
+            <h2 class="name">Your Subject</h2>
+                <select name="subject"  class="option">
+                    <option disabled="disabled" selected="selected">Choose subject</option>
+                        <option>Physics</option>
+                        <option>Chemistry</option>
+                        <option>Biology</option>
+                        <option>Mathematics</option>
+                    </select>
+
+            <h2 id="student">Are you a beginner ? </h2>
+            <label class="radio">
+                <input type="radio" class="radio-one" checked="checked" name="">
+                <span class="checkmark"></span>
+                Yes
+            </label>
+            <label>
+                <input type="radio" class="radio-two" checked="checked" name="">
+                <span class="checkmark"></span>
+                 No
+            </label><br>
+
+            <button type="submit" style="cursor: pointer;color: blue;">submit</button>
+        </form>
+    </body>
+</html>
